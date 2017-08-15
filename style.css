@@ -3,8 +3,35 @@ main {
 	display: flex;
 	height: 100vh;
 	justify-content: center;
+	text-align: center;
 }
 
-.chart text {
-
+.heading {
+	position: relative;
+	top: -50px;
 }
+
+.heading div {
+	box-sizing: border-box;
+	font-size: 36px;
+	padding: 10%;
+}
+
+.directions {
+	box-sizing: border-box;
+	font-size: 12px;
+	padding: 5%;
+	position: relative;
+	top: -50px;
+}
+
+.y-axis {
+	position: relative;
+	left: 160px;
+	transform: rotate(270deg);
+}
+
+.chart p{
+	margin-bottom: 2%;
+}
+
